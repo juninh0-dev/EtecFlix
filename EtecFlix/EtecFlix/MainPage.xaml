@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EtecFlix.MainPage"
+             Title="ETEC FLIX"
+             BackgroundColor="#444444">
+    <StackLayout>
+    <Image x:Name="logo" HeightRequest="150"/>
+
+    <Grid ColumnDefinitions="*, *"
+              RowSpacing="2" ColumnSpacing="2"
+              Padding="0"
+              VerticalOptions="FillAndExpand"
+              RowDefinitions="*, *, *, *, *">
+
+        <Button Grid.Row="0" Grid.Column="0" Text="Aventura" Clicked="Button_Clicked" />
+        <Button Grid.Row="0" Grid.Column="1" Text="Comedia" Clicked="Button_Clicked_1"/>
+        <Button Grid.Row="1" Grid.Column="0" Text="Drama" Clicked="Button_Clicked_2"/>
+        <Button Grid.Row="1" Grid.Column="1" Text="Terror" Clicked="Button_Clicked_3"/>
+        <Button Grid.Row="2" Grid.Column="0" Text="Ficção Científica" Clicked="Button_Clicked_4"/>
+        <Button Grid.Row="2" Grid.Column="1" Text="Suspense" Clicked="Button_Clicked_5"/>
+        <Button Grid.Row="3" Grid.Column="0" Text="Infantil" Clicked="Button_Clicked_6"/>
+        <Button Grid.Row="3" Grid.Column="1" Text="Animação" Clicked="Button_Clicked_7"/>
+        <Button Grid.Row="4" Grid.Column="0" Text="Documentação" Clicked="Button_Clicked_8"/>
+        <Button Grid.Row="4" Grid.Column="1" Text="Guerra" Clicked="Button_Clicked_9"/>
+        <Button Grid.Row="5" Grid.Column="0" Text="Nacional" Clicked="Button_Clicked_10"/>
+        <Button Grid.Row="5" Grid.Column="1" Text="Romance" Clicked="Button_Clicked_11"/>
+    
+    </Grid>
+    </StackLayout>
+
+</ContentPage>
